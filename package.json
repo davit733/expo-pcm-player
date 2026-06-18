@@ -1,0 +1,32 @@
+{
+  "name": "expo-pcm-player",
+  "version": "0.1.0",
+  "description": "A native streaming PCM audio player for Expo and React Native.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "expo-module.config.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davit733/expo-pcm-player.git"
+  },
+  "homepage": "https://github.com/davit733/expo-pcm-player#readme",
+  "bugs": {
+    "url": "https://github.com/davit733/expo-pcm-player/issues"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "pcm",
+    "audio",
+    "streaming"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=54"
+  }
+}
