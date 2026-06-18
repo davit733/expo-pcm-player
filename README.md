@@ -15,7 +15,7 @@ A small native streaming PCM audio player for Expo and React Native, implemented
 Install directly from GitHub:
 
 ```sh
-npm install github:davit733/expo-pcm-player
+npm install git+https://github.com/davit733/expo-pcm-player.git
 ```
 
 This package contains native code. Rebuild your development client or application after installing it; it is not available in Expo Go.
