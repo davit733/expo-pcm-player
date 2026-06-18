@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["PcmPlayerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.pcmplayer.PcmPlayerModule"]
+  }
+}
