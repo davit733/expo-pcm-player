@@ -1,0 +1,20 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.pcmplayer'
+version = '0.1.0'
+
+android {
+  namespace "expo.modules.pcmplayer"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
